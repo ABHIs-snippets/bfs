@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* dtrfgyhjik */
+
+
+
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: cursive;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#grid { 
+    /* padding: 12px; */
+    /* height: min-content; */
+    border: 2px solid #2d2d2d;
+    border-radius: 7px;
+    box-shadow: 0 0 4px 4px #ffffff56;
+    overflow: hidden;
+}
+
+
+label{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+}
+#grid p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    display: inline-block;
+    width: 6px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 6px;
+}
+
